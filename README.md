@@ -15,6 +15,7 @@ dmrg_file can be either in palin format or in fromat of MOLMPS output file.
 PLAIN FORMAT
 
 This is text file with the following content (assuming there are N orbitals in the system):
+
         1 line          -       float: Hartree-Fock energy, Ha
         2 line          -       float: low bond DMRG energy, Ha
         3 line          -       float: truncation error
@@ -41,6 +42,7 @@ It must end with
                 return norbs, TRE, energies, occupations, entrop1, entrop2
 
 where
+
         norbs           -       int, number of orbitals
         TRE             -       float, truncation error
         energies        -       1D array, [2 floats], first: Hartree-Fock energy, Ha; second: low bond DMRG energy, Ha
