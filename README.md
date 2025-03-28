@@ -3,7 +3,7 @@ This repository contains the test and train data together with trained model fro
 
 The module is aimed to predict static correlation energy for polycyclic aromatic hydrocarbons based
 on low-bond DMRG calculations and correlation information.
-See /url/of/the/article for more details.
+See https://doi.org/10.1021/acs.jpclett.5c00207 for more details.
 
 To get prediction run:
 
